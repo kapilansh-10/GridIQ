@@ -24,8 +24,8 @@ function Register(){
                             // Clear the form
                             setFormData({ email: "", password: "" })
                         } catch (error) {
-                            console.error(err.response.data)
-                            alert('Error: ' + err.response.data.msg)
+                            console.error(error.response.data)
+                            alert('Error: ' + error.response.data.msg)
                             }
                         }
                     }>
